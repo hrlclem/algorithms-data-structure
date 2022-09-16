@@ -3,7 +3,7 @@ function fibonacciRecursion(n) {
         return n;
     }
     else {
-        return fibonacciRecursion(n-1) + fibonacciRecursion(n - 2);
+        return fibonacciRecursion(n-1) + fibonacciRecursion(n-2);
     }
 }
 
